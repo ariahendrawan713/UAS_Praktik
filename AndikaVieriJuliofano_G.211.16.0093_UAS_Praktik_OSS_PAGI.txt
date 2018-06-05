@@ -1,0 +1,30 @@
+***Tanda (*#) merupakan keterangan perbaikan***
+
+var = 10
+if ( var == 100 ) : print "Value of expression is 100"
+else (var != 100): print "Value of expression is not 100"  *#kondisi else tidak perlu (var != 100) karena tanda (!=) artinya tidak sama dengan sehingga bentrok dengan kondisi else
+print "Good bye!"
+
+a = 33
+b = 200
+if b > a  *#diakhir kalimat fungsi tersebut kurang tanda titik dua(:) s
+print("b is greater than a") % you will get an error  *#tanda % diganti menjadi tanda pagar(#) karena kalimat( you will get an error) adalah kalimat comment, serta penulisan baris ini bisa dipindah ke belakang if
+
+mahasiswa = ["jangan", "lupa", "ucapkan", "salam"]
+for x in mahasiswa:
+print(x)
+
+#setelah di perbaiki#
+
+var = 10
+if ( var == 100 ) : print "Value of expression is 100"
+else : print "Value of expression is not 100" 
+print "Good bye!"
+
+a = 33
+b = 200
+if b > a : print("b is greater than a") # you will get an error 
+
+mahasiswa = ["jangan", "lupa", "ucapkan", "salam"]
+for x in mahasiswa:
+print(x)

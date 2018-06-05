@@ -1,0 +1,42 @@
+Sebelum diperbaiki :
+
+var = 10
+if ( var == 100 ) : print "Value of expression is 100"
+else (var != 100): print "Value of expression is not 100" #baris ini kondisi else tidak perlu (var != 100) maka dihapus saja
+print "Good bye!"
+
+a = 33
+b = 200
+if b > a #baris ini di tambah tanda titik dua (:)
+print("b is greater than a") % you will get an error #baris ini dipindahkan ke baris if setelah tanda titik dua dan tanda % diganti menjadi tanda pagar(#) karena ini adalah perintah coment
+
+mahasiswa = ["jangan", "lupa", "ucapkan", "salam"]
+for x in mahasiswa:
+  print(x)
+  
+  
+Jika diperbaiki maka seperti ini :
+
+var = 10
+if ( var == 100 ) : print "Value of expression is 100"
+else : print "Value of expression is not 100" 
+print "Good bye!"
+
+a = 33
+b = 200
+if b > a : print("b is greater than a") # you will get an error 
+
+mahasiswa = ["jangan", "lupa", "ucapkan", "salam"]
+for x in mahasiswa:
+  print(x)
+  
+  
+Jika di Run maka hasil nya seperti ini :
+
+Value of expression is not 100
+Good bye!
+b is greater than a
+jangan
+lupa
+ucapkan
+salam
